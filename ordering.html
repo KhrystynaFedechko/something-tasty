@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Замовити</title>
+     <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+            <h1 lang="uk">Something tasty</h1>
+            <h2 lang="uk">Make your life sweet...</h2>
+            <img src="logo3.png" alt="logo" class="logo">
+    </header>
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="idea1.html">Цікаві ідеї</a>
+        <a href="ordering.html">Замовити</a>
+        <a href="contacts.html">Контакти</a>
+    </nav>
+    <article>
+        <h2>Зробити замовлення</h2>
+        <section>
+            <p>Заповніть, будь ласка, вказані нище поля. 
+            Обов'язково вкажіть Ваші контактні дані, щоб я могла зв'язатись з Вами та узгодити деталі замовлення.</p>
+                <form method="POST" action="https://formspree.io/somethtasty@gmail.com">
+                    <label for="name"><b>Приізвище та ім'я</b></label><br>
+                    <input type="text" name="name" id="name" placeholder="Ваше прізвище та ім'я" required><br>
+                    <label for="phonenumber"><b>Номер телефону</b></label><br>
+                    <input type="tel" name="phonenumber" id="phonenumber" placeholder="Ваш номер телефону" required><br>
+                    <label for="email"><b>Email</b></label><br>
+                    <input type="email" name="email" id="email" placeholder="Email" required><br>
+                    <label for="date"><b>Замовлення має бути готове</b></label><br>
+                    <input type="date" name="date" id="date" min="2016-11-10"><br>
+                    <b>Оберіть вид замовлення</b><br>
+                    <input type="checkbox" name="cake" value="торт">Торт<br>
+                    <input type="checkbox" name="cupcake" value="кекси">Кекси<br>
+                    <label for="comment"><b>Коментар до замовлення</b></label><br>
+                    <textarea name="comment" id="comment" placeholder="Коментар"></textarea>
+                    <br><input type="reset" name="reset" id="reset" value="Скинути">
+                    <input type="submit" name="submit" id="submit" value="Надіслати">
+                </form>
+        </section>
+    </article>
+    <footer>
+        <a href="https://www.facebook.com/ruslankamaruniak">
+            <img src="fb.png" alt="facebook">
+        </a>
+        <a href="https://vk.com/rusliikk">
+            <img src="vk.png" alt="vkontakte">
+        </a>
+        <a href="https://www.instagram.com/lovelycupcakes_lviv/">
+            <img src="insta.png" alt="instagram">
+        </a>
+        <p lang="en">
+            Ruslana Maruniak
+            Viber: 0633618422
+            Email: somethtasty@gmail.com
+        </p>
+    </footer>
+</body>
+</html>
