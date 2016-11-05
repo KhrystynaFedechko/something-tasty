@@ -1,9 +1,48 @@
-head {
-    font: Chewy;
+* {
+ font-family: 'Pattaya', sans-serif; 
+ color: #7D2128;
+ text-decoration: none;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav1 {
+    text-align: left;
+    margin-left: 150px;
+    font-size: 25px;
+}
+.nav1 a {
+    padding-right: 60px;
+}
+.nav2 {
+    text-align: right;
+    margin-right: 150px;
+    font-size: 25px;
+}
+.nav2 a {
+    padding-left: 60px;
+}
+header h1 {
+    color: #B53030;
+    font-size: 50px;
 }
 .logo {
     width: 300px;
+
+}
+.anime {
+ max-width: 300px;
 }
 section img {
-    width: 75%;
+    width: 80%;
+}
+.left {
+    text-align: left;
+    margin-left: 150px;
+}
+.right {
+    text-align: right;
+    margin-right: 150px;
 }
