@@ -2,47 +2,51 @@
  font-family: 'Pattaya', sans-serif; 
  color: #7D2128;
  text-decoration: none;
+ padding-bottom: 20px;
 }
+
 body {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
-.nav1 {
-    text-align: left;
-    margin-left: 150px;
-    font-size: 25px;
+
+.logo {
+    width: 200px;
 }
-.nav1 a {
-    padding-right: 60px;
+nav {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
-.nav2 {
-    text-align: right;
-    margin-right: 150px;
-    font-size: 25px;
+nav a {
+    border: 3px solid #7D2128;
+    padding: 5px 30px;
 }
-.nav2 a {
-    padding-left: 60px;
-}
+
 header h1 {
     color: #B53030;
     font-size: 50px;
 }
-.logo {
-    width: 300px;
 
-}
 .anime {
  max-width: 300px;
 }
 section img {
     width: 80%;
 }
-.left {
-    text-align: left;
-    margin-left: 150px;
+
+footer {
+    display: flex;
+    justify-content: space-around;
 }
-.right {
-    text-align: right;
-    margin-right: 150px;
+.network  {
+    margin-left: 50px;
 }
+/*.name {
+    display: flex;
+    justify-content: space-around;
+}
+.hidden {
+    margin-top: 50px;
+}*/
