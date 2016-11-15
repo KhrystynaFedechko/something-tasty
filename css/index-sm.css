@@ -1,3 +1,7 @@
 .hidden {
     display: none;
 }
+footer .footerPart {
+    display: block;
+    float: left;
+}

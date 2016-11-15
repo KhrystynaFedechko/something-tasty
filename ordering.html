@@ -1,65 +1,69 @@
 <!doctype html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <title>Замовити</title>
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
-     <link rel="stylesheet" href="css/index.css" type="text/css">
-     <link rel="stylesheet" href="css/index-lg.css" media="(min-width: 451px)">
-     <link rel="stylesheet" href="css/index-sm.css" media="(max-width: 450px)">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/index-lg.css" media="(min-width: 451px)">
+    <link rel="stylesheet" href="css/index-sm.css" media="(max-width: 450px)">
 </head>
+
 <body>
     <header>
-            <h1 lang="en">Something tasty</h1>
-            <h2 lang="en">Make your life sweet...</h2>
-            <img src="logo3.png" alt="logo" class="logo">
+        <h1 lang="en">Something tasty</h1>
+        <h2 lang="en">Make your life sweet...</h2>
+        <a href="index.html"><img src="logo.png" alt="logo" class="logo"></a>
     </header>
     <nav>
-            <a href="index.html"><b>Головна</b></a>
-            <a href="idea1.html"><b>Цікаві ідеї</b></a>
-            <a href="ordering.html"><b>Замовити</b></a>
-            <a href="contacts.html"><b>Контакти</b></a>
+        <a href="index.html"><b>Головна</b></a>
+        <a href="idea1.html"><b>Цікаві ідеї</b></a>
+        <a href="ordering.html"><b>Замовити</b></a>
+        <a href="contacts.html"><b>Контакти</b></a>
     </nav>
     <article>
         <h2>Зробити замовлення</h2>
         <section class="ordering">
-            <p>Заповніть, будь ласка, вказані нище поля. 
-            Обов'язково вкажіть Ваші контактні дані, щоб я могла зв'язатись з Вами та узгодити деталі замовлення.</p>
-                <form method="POST" action="https://formspree.io/somethtasty@gmail.com">
-                    <label for="name"><b>Приізвище та ім'я</b></label><br>
-                    <input type="text" name="name" id="name" placeholder="Ваше прізвище та ім'я" required><br>
-                    <label for="phonenumber"><b>Номер телефону</b></label><br>
-                    <input type="tel" name="phonenumber" id="phonenumber" placeholder="Ваш номер телефону" required><br>
-                    <label for="email"><b>Email</b></label><br>
-                    <input type="email" name="email" id="email" placeholder="Email" required><br>
-                    <label for="date"><b>Замовлення має бути готове</b></label><br>
-                    <input type="date" name="date" id="date" min="2016-11-10"><br>
-                    <b>Оберіть вид замовлення</b><br>
-                    <input type="checkbox" name="cake" value="торт">Торт<br>
-                    <input type="checkbox" name="cupcake" value="кекси">Кекси<br>
-                    <label for="comment"><b>Коментар до замовлення</b></label><br>
-                    <textarea name="comment" id="comment" placeholder="Коментар"></textarea>
-                    <br><input type="reset" name="reset" id="reset" value="Скинути">
-                    <input type="submit" name="submit" id="submit" value="Надіслати">
-                </form>
+            <p>Заповніть, будь ласка, вказані нище поля. Обов'язково вкажіть Ваші контактні дані, щоб я могла зв'язатись з Вами та узгодити деталі замовлення.</p>
+            <form>
+                <label for="name"><b>Приізвище та ім'я</b></label><br>
+                <input type="text" name="name" id="userName" placeholder="Ваше прізвище та ім'я" required><br>
+                <label for="phonenumber"><b>Номер телефону</b></label><br>
+                <input type="tel" name="phonenumber" id="phoneNumber" placeholder="Ваш номер телефону" required><br>
+                <label for="email"><b>Email</b></label><br>
+                <input type="email" name="email" id="userEmail" placeholder="Email" required><br>
+                <label for="date"><b>Замовлення має бути готове</b></label><br>
+                <input type="date" name="date" id="doneDate" min="2016-11-10"><br>
+                <b>Оберіть вид замовлення</b><br>
+                <input type="checkbox" name="cake" id="cake" value="торт">Торт<br>
+                <input type="checkbox" name="cupcake" id="cupcake" value="кекси">Кекси<br>
+                <label for="comment"><b>Коментар до замовлення</b></label><br>
+                <textarea name="comment" id="comment" placeholder="Коментар"></textarea>
+                <br><input type="reset" name="reset" id="reset" value="Скинути">
+                <input type="submit" name="submit" id="submit" value="Надіслати">
+            </form>
         </section>
     </article>
     <footer>
-            <div class="network">
+        <div class="network">
             <a href="https://www.facebook.com/ruslankamaruniak">
-                <img src="fb.png" alt="facebook">
+                <img src="footerPng/fb.png" alt="facebook">
             </a>
             <a href="https://vk.com/rusliikk">
-                <img src="vk.png" alt="vkontakte">
+                <img src="footerPng/vk.png" alt="vkontakte">
             </a>
             <a href="https://www.instagram.com/lovelycupcakes_lviv/">
-                <img src="insta.png" alt="instagram">
-            </a>  
-            </div lang="en">
-                <p>Ruslana Maruniak
-                Viber: 0633618422</p>
-                <p>Email: somethtasty@gmail.com</p>
-    
+                <img src="footerPng/insta.png" alt="instagram">
+            </a>
+        </div>
+        <p>Ruslana Maruniak<br>
+        Viber: 0633618422</p>
+        <p>Email: somethtasty@gmail.com</p>
+
     </footer>
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/ordering.js"></script>
 </body>
+
 </html>
