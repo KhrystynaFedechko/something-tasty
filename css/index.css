@@ -23,7 +23,9 @@ nav a {
     border: 3px solid #7D2128;
     padding: 5px 30px;
 }
-
+nav a:hover {
+    color: #FF0000;
+}
 header h1 {
     color: #B53030;
     font-size: 50px;
