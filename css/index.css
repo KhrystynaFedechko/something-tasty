@@ -1,5 +1,5 @@
 * {
- font-family: 'Pattaya', sans-serif; 
+ font-family: 'Comfortaa', cursive; 
  color: #7D2128;
  text-decoration: none;
  padding-bottom: 20px;
@@ -12,11 +12,14 @@ body {
 }
 
 .logo {
+    margin-top: 5px;
     width: 180px;
 }
 .logo:hover {
-    width: 185px;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
+
 header {
     display: flex;
     align-items: center;
@@ -46,6 +49,7 @@ nav a:hover {
 header h1 {
     color: #B53030;
     font-size: 50px;
+    font-family: 'Pattaya', sans-serif;
 }
 
 .anime {
