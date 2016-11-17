@@ -1,3 +1,4 @@
+
 * {
  font-family: 'Comfortaa', cursive; 
  color: #7D2128;
@@ -51,17 +52,31 @@ header h1 {
     font-size: 50px;
     font-family: 'Pattaya', sans-serif;
 }
-
+section h2, article h2 {
+    border-top: 3px solid #B53030;
+}
+a b {
+    border-bottom: 3px solid #B53030;
+    opacity: 0.7;
+    padding: 0;
+    margin: 0;
+}
+a b:hover {
+color:#B53030;
+opacity: 1.0;
+}
+article img {
+    border-radius: 70px;
+}  
 .anime {
  max-width: 300px;
 }
 section img {
     width: 80%;
 }
-
 footer {
     display: flex;
-    justify-content: space-around;
+     justify-content: space-around;
 }
 .network  {
     margin-left: 50px;

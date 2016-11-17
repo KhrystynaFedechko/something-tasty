@@ -1,7 +1,13 @@
-.hidden {
-    display: none;
-}
-footer .footerPart {
+header{
     display: block;
-    float: left;
 }
+nav {
+    display: block;
+}
+/*.hidden {*/
+/*    display: none;*/
+/*}*/
+footer {
+   display: block;
+}
+
