@@ -112,8 +112,3 @@ textarea:focus,
 input:focus {
     border: 3px solid #B53030;
 }
-input[type=reset]:hover,
-input[type=submit]:hover {
--webkit-transform: scale(0.9);
-	transform: scale(0.9);
-}
