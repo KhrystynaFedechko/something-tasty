@@ -54,6 +54,7 @@ header h1 {
 }
 section h2, article h2 {
     border-top: 3px solid #B53030;
+    padding-top: 20px;
 }
 a b {
     border-bottom: 3px solid #B53030;
@@ -65,26 +66,54 @@ a b:hover {
 color:#B53030;
 opacity: 1.0;
 }
-article img {
-    border-radius: 70px;
+.examples {
+    border-radius: 80px;
+    width: 70%;
 }  
 .anime {
  max-width: 300px;
 }
-section img {
-    width: 80%;
-}
 footer {
     display: flex;
-     justify-content: space-around;
+    justify-content: space-around;
 }
 .network  {
     margin-left: 50px;
 }
-/*.name {
-    display: flex;
-    justify-content: space-around;
+textarea, 
+input[type=text], 
+input[type=tel],
+input[type=email],
+input[type=date] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #7D2128;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
 }
-.hidden {
-    margin-top: 50px;
-}*/
+input[type=reset],
+input[type=submit] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #7D2128;
+    background-color: #7D2128;
+    color: white;
+    font-weight: bolder;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+textarea:focus, 
+input:focus {
+    border: 3px solid #B53030;
+}
+input[type=reset]:hover,
+input[type=submit]:hover {
+-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}

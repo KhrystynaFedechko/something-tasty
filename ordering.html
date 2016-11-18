@@ -27,21 +27,35 @@
         <section class="ordering">
             <p>Заповніть, будь ласка, вказані нище поля. Обов'язково вкажіть Ваші контактні дані, щоб я могла зв'язатись з Вами та узгодити деталі замовлення.</p>
             <form id="orderingForm">
-                <label for="name"><b>Приізвище та ім'я</b></label><br>
-                <input type="text" name="name" id="userName" placeholder="Ваше прізвище та ім'я" required><br>
-                <label for="phonenumber"><b>Номер телефону</b></label><br>
+            <div>
+                <label for="userName"><b>Приізвище та ім'я</b></label><br>
+                <input type="text" name="userName" id="userName" placeholder="Ваше прізвище та ім'я" required><br>
+            </div>
+            <div>
+                <label for="phoneNumber"><b>Номер телефону</b></label><br>
                 <input type="tel" name="phonenumber" id="phoneNumber" placeholder="Ваш номер телефону" required><br>
-                <label for="email"><b>Email</b></label><br>
+            </div>
+            <div>
+                <label for="userEmail"><b>Email</b></label><br>
                 <input type="email" name="email" id="userEmail" placeholder="Email" required><br>
-                <label for="date"><b>Замовлення має бути готове</b></label><br>
+            </div>
+            <div>
+                <label for="doneDate"><b>Замовлення має бути готове</b></label><br>
                 <input type="date" name="date" id="doneDate" min="2016-11-10"><br>
+            </div>
+            <div>
                 <b>Оберіть вид замовлення</b><br>
                 <input type="checkbox" name="cake" id="cake" value="торт">Торт<br>
                 <input type="checkbox" name="cupcake" id="cupcake" value="кекси">Кекси<br>
+            </div>
+            <div>
                 <label for="comment"><b>Коментар до замовлення</b></label><br>
                 <textarea name="comment" id="comment" placeholder="Коментар"></textarea>
+            </div>
+            <div>
                 <br><input type="reset" name="reset" id="reset" value="Скинути">
                 <input type="submit" name="submit" id="submit" value="Надіслати">
+            </div>
             </form>
         </section>
     </article>
