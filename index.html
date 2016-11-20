@@ -6,6 +6,7 @@
     <title>Головна</title>
     <link rel="shortcut icon" href="favicon.ico">
     <!--<link rel="stylesheet" href="js/boot.css">-->
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css" type="text/css">
@@ -15,19 +16,19 @@
 
 <body>
     <header>
-        <h1 lang="en">Something tasty</h1><br>
-        <a href="index.html"><img src="logo.png" alt="logo" class="logo"></a><br>
-        <h2 lang="en" class="hidden">Make your life sweet...</h2><br>
+        <h1 lang="en" class="wow bounceInDown">Something tasty</h1><br>
+        <a href="index.html"><img src="logo.png" alt="logo" class="logo wow rubberBand"></a><br>
+        <h2 lang="en" class="wow bounceInDown">Make your life sweet...</h2><br>
     </header>
     <nav>
-        <div><a href="index.html">Головна</a></div>
-        <div><a href="idea1.html">Цікаві ідеї</a></div>
-        <div><a href="ordering.html">Замовити</a></div>
-        <div><a href="contacts.html">Контакти</a></div>
+        <div class="wow bounceInLeft data-wow-duration="1s" data-wow-delay="1s""><a href="index.html">Головна</a></div>
+        <div class="wow bounceInLeft data-wow-duration="1s" data-wow-delay="1s""><a href="idea1.html">Цікаві ідеї</a></div>
+        <div class="wow bounceInRight data-wow-duration="1s" data-wow-delay="1s""><a href="ordering.html">Замовити</a></div>
+        <div class="wow bounceInRight data-wow-duration="1s" data-wow-delay="1s""><a href="contacts.html">Контакти</a></div>
     </nav>
     <section>
         <a href="cake1.html">
-            <h2><b>Торти</b></h2>
+            <h2><b class="underline">Торти</b></h2>
         </a>
 
         <!--<div class="jumbotron">-->
@@ -93,7 +94,7 @@
         </section>
         <section>
             <a href="cupcake1.html">
-                <h2><b>Кекси</b></h2>
+                <h2><b class="underline">Кекси</b></h2>
             </a>
             <br><img src="cupcakes/cupcake1.jpg" alt="cupcake1" class="anime">
             <img src="cupcakes/cupcake2.jpg" alt="cupcake2" class="anime">
@@ -118,6 +119,10 @@
             <div>Email: somethtasty@gmail.com
             </div>
         </footer>
+        <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
         <!--<script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>-->
         <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
         <!--<script type="text/javascript" src="js/smooth-scroll.js"></script>-->
