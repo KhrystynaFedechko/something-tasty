@@ -11,7 +11,7 @@ $(function() {
             }
             e.preventDefault();
             $.ajax({
-                    url: "https://formspree.io/dykakh@gmail.com",
+                    url: "https://formspree.io/somethtasty@gmail.com",
                     method: "POST",
                     data: {
                         userName: $('#userName').val(),
@@ -30,6 +30,6 @@ $(function() {
                 .fail(function() {
                     $('form').html('<h1>Ой, щось сталось =(</h1>');
                 });
-    }
+        }
     });
 });
