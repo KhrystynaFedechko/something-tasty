@@ -66,14 +66,6 @@ function showSlidesCupC(n) {
     cSlides[slideIndexCupC - 1].style.display = "block";
 }
 
-function showIframe() {
-    var morePictures = document.getElementById("morePictures");
-    if (morePictures.style.display === "none") {
-    morePictures.style.display = "inline";
-    } else {
-        morePictures.style.display = "none";
-    }
-}
 
 
 
