@@ -136,3 +136,11 @@ textarea:focus,
 input:focus {
     border: 3px solid #B53030;
 }
+iframe {
+   width: 80%; 
+   height: 500px;
+}
+.invisible {
+    display: none;
+}
+
